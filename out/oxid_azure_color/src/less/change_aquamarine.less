@@ -1,0 +1,110 @@
+@grad_blue_start: #ADEFFF;
+@grad_blue_mid: #389cb4;
+@grad_blue_end: #18778e;
+
+@grad_light_head_start: #e0f1f5;
+@grad_light_head_end: #b8dde6;
+
+@grad_blue_dark_start: #5fb7cc;
+@grad_blue_dark_end: #1a7990;
+
+@link_color: #1D7E96;
+
+@border_color: @grad_blue_end; /*#58B3CA; */
+@border_light_color: @grad_blue_start; /* #3799B1 */
+
+/* Blue */
+.gridView .titleBox,
+.itemSlider .titleBlock,
+.itemSlider .titleBlock:hover,
+.gridView .priceBox,
+.box h3,
+.box h2,
+.sectionHead,
+.pageHead,
+#currencies a.selected,
+#languages a.selected,
+.flyoutMenu a.selected,
+.dropDown a.selected,
+.thumbNav a.cur,
+.thumbNav a.cur:hover,
+.promoBox strong.promoPrice,
+.itemSlider .prevItem span.slideBg,
+.itemSlider .nextItem span.slideBg,
+.specBox h3,
+#sidebar .tree li.exp > a{
+    background: @grad_blue_mid none;
+    background: -moz-linear-gradient(@grad_blue_start, @grad_blue_mid, @grad_blue_end);
+    background: -ms-linear-gradient(@grad_blue_start, @grad_blue_mid, @grad_blue_end);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, @grad_blue_start), color-stop(50%, @grad_blue_mid), color-stop(100%, @grad_blue_end));
+    background: -webkit-linear-gradient(@grad_blue_start, @grad_blue_mid, @grad_blue_end);
+    background: -o-linear-gradient(@grad_blue_start, @grad_blue_mid, @grad_blue_end);
+    background: linear-gradient(@grad_blue_start, @grad_blue_mid, @grad_blue_end);
+}
+
+.lightHead,
+h2.lightHead,
+h3.lightHead {
+    background: @grad_light_head_end none;
+    background: -moz-linear-gradient(@grad_light_head_start, @grad_light_head_end);
+    background: -ms-linear-gradient(@grad_light_head_start, @grad_light_head_end);
+    background: -webkit-gradient(linear, left top, left bottom, from(@grad_light_head_start), to(@grad_light_head_end));
+    background: -webkit-linear-gradient(@grad_light_head_start, @grad_light_head_end);
+    background: -o-linear-gradient(@grad_light_head_start, @grad_light_head_end);
+    background: linear-gradient(@grad_light_head_start, @grad_light_head_end);
+}
+
+.FXgradBlueDark,
+.submitButton {
+    background: @grad_blue_dark_end none;
+    background: -moz-linear-gradient(@grad_blue_dark_start, @grad_blue_dark_end);
+    background: -ms-linear-gradient(@grad_blue_dark_start, @grad_blue_dark_end);
+    background: -webkit-gradient(linear, left top, left bottom, from(@grad_blue_dark_start), to(@grad_blue_dark_end));
+    background: -webkit-linear-gradient(@grad_blue_dark_start, @grad_blue_dark_end);
+    background: -o-linear-gradient(@grad_blue_dark_start, @grad_blue_dark_end);
+    background: linear-gradient(@grad_blue_dark_start, @grad_blue_dark_end);
+}
+
+
+/* Link Color */
+.infogridView  a.compare,
+.lineView  a.compare,
+.pager .active,
+.recommendations .title .textButton,
+.variantReset  a.reset,
+.agb a,
+.basketitems .wrappingTrigger,
+.basketFunctions button,
+.basketFunctions span,
+h3.lightHead,
+.flyout h4,
+.fbInfoPopup a,
+a.readMore {
+    color: @link_color;
+}
+
+.agb a:hover,
+.box li a.readMore:hover,
+a.readMore:hover,
+#topMenu a:hover,
+.selectedValue a:hover {
+	color: lighten(@link_color, 10%)
+}
+
+
+
+/* Box Borders */
+.box ul, .box ol, .box .content, .box .featured {
+	border-color: @border_color;
+}
+
+#footer #panel,
+.itemSlider,
+#footer dl,
+#footer .bar {
+	border-color: @border_light_color;
+}
+/* fix for oxid css */
+#footer dl {
+	border-left: 0;
+}

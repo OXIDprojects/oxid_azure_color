@@ -1,0 +1,20 @@
+
+@import "change_orange"; /* former orange */
+@import "change_aquamarine"; /* former aquamarine */
+
+@grad_orange_start: #EA04F2;
+@grad_orange_end: darken(@grad_orange_start, 10%);
+
+@grad_blue_start: #37D104;
+@grad_blue_mid: darken(@grad_blue_start, 15%);
+@grad_blue_end: darken(@grad_blue_mid, 5%);
+
+@grad_light_head_start: @grad_blue_mid;
+@grad_light_head_end: @grad_blue_end;
+
+@grad_blue_dark_start: @grad_blue_end;
+@grad_blue_dark_end: darken(@grad_blue_end, 5%);
+
+@link_color: @grad_blue_mid;
+
+@border_color: @grad_blue_dark_start;

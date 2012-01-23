@@ -1,0 +1,61 @@
+@grad_orange_start: #FF8604;
+@grad_orange_end: #ec6105;
+@hover_bg: lighten(@grad_orange_start, 10%);
+@link_color: @grad_orange_end;
+
+/* Orange */
+.FXgradOrange,
+.removeButton,
+.sf-menu li.current,
+.sf-menu li.sfHover, .sf-menu li:hover,
+.gridView div.priceBox:hover,
+.gridView div.titleBox:hover,
+.featuredList a:hover,
+.featuredList li.articleImage:hover + li.articleTitle > a,
+#footer .list a:hover,
+#currencies a:hover,
+#languages a:hover,
+.flyoutMenu a:hover,
+.submitButton:hover,
+.basketFlyout li a:hover,
+.dropDown ul a:hover,
+div.anythingSlider span.arrow:hover,
+.thumbNav a:hover,
+.itemSlider .prevItem:hover span.slideBg,
+.itemSlider .nextItem:hover span.slideBg,
+a.viewAllHover,
+.itemSlider li a.viewAllHover,
+.specBoxTitles a.title:hover,
+.actionLinks li:hover,
+#sidebar .tree li.active>a,
+#sidebar .tree a:hover {
+    background: @grad_orange_end none;
+    background: -moz-linear-gradient(@grad_orange_start, @grad_orange_end);
+    background: -ms-linear-gradient(@grad_orange_start, @grad_orange_end);
+    background: -webkit-gradient(linear, left top, left bottom, from(@grad_orange_start), to(@grad_orange_end));
+    background: -webkit-linear-gradient(@grad_orange_start, @grad_orange_end);
+    background: -o-linear-gradient(@grad_orange_start, @grad_orange_end);
+    background: linear-gradient(@grad_orange_start, @grad_orange_end);
+}
+
+/* The little orange arrow when hovering a navigation item */
+.sf-sub-indicator {
+	background: transparent none;
+	left: 50%;
+	margin-left: -2px;
+	width: 0;
+	height: 0;
+	border-width: 4px;
+	border-color: @grad_orange_end transparent transparent transparent;
+	border-style: solid solid solid solid;
+}
+
+/* When hovering a product in category listing */
+.itemSlider a.sliderHover, a.sliderHover {
+	background-color: @hover_bg;
+}
+
+/* Product Title Link color */
+.infogridView .title:hover {
+	color: @link_color;
+}
