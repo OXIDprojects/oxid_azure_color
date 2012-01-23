@@ -49,3 +49,10 @@ Contribution
 ------------
 Feel free to fork this and implement additional features.
 Please Report places where I've missed a default color.
+
+TODO
+----
+- Find unobtrusive way to include the needed files (without shadowing base.tpl)
+- Implement more Color Variables
+- Replace Gradients with mixin
+- Allow non Gradient Backgrounds
