@@ -9,11 +9,7 @@ and select the 'Oxid Azure Custom Color' Theme in the Admin Area
 Add to your already modified azure theme
 ----------------------------------------
 Get the contents of the 'src' directory and copy it to your theme.
-Add the two lines in your 
-```html
-<head>
-```
-section after the stylesheets (!)
+Add the two lines in your ```<head>``` section after the stylesheets (!)
 
 ```html
     <link rel="stylesheet/less" type="text/css" href="/out/oxid_azure_color/src/less/main.less">
