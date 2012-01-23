@@ -3,7 +3,11 @@ Custom Colors in Oxid eShops Azure Theme made easy
 
 Add as stand-alone theme (with azure as parent)
 -----------------------------------------------
-Copy the contents of this repository into your oxid basedir 
+Clone this repository into your shops 'out' directory.
+```
+cd out
+git clone git://github.com/1st8/oxid_azure_color.git
+```
 and select the 'Oxid Azure Custom Color' Theme in the Admin Area
 
 Add to your already modified azure theme
