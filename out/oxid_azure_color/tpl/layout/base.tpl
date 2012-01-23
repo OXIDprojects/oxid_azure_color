@@ -76,9 +76,6 @@
     [{oxstyle}]
     
     <link rel="stylesheet/less" type="text/css" href="/out/oxid_azure_color/src/less/main.less">
-    <script type="text/javascript">
-    	less = {env: 'development'}
-    </script>
     <script type="text/javascript" src="/out/oxid_azure_color/src/js/less-1.2.1.min.js"></script>
     
 </head>
