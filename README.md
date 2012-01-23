@@ -8,7 +8,7 @@ and select the 'Oxid Azure Custom Color' Theme in the Admin Area
 
 Add to your already modified azure theme
 ----------------------------------------
-Get the contents of the 'src' directory and copy it to your theme.
+Get the contents of the ```src``` directory and copy it to your theme.
 Add the two lines in your ```<head>``` section after the stylesheets (!)
 
 ```html
